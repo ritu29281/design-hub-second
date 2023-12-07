@@ -1,0 +1,330 @@
+* {
+  font-weight: 700;
+}
+.text-animation1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  position: relative;
+  right: 2rem;
+}
+.text-animation2 {
+  font-size: 1.2em;
+  position: relative;
+  bottom: 13rem;
+}
+.text-animation3 {
+  position: relative;
+}
+.svgitem1 {
+  position: relative;
+  right: 17em;
+  bottom: 2em;
+  /* transform: rotate(6.38deg); */
+}
+.svgitem2 {
+  position: relative;
+  left: 14rem;
+  bottom: 3rem;
+}
+.form {
+  display: flex;
+  position: relative;
+  bottom: 6rem;
+}
+.icon {
+  position: relative;
+  top: 8px;
+  right: 24px;
+}
+.iconn {
+  margin: 4px;
+}
+.text-animation3 {
+  font-size: 1.2em;
+}
+
+.contactme {
+  width: 1180px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #007ee5;
+  color: #fff;
+  cursor: pointer;
+
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.btn {
+  background-color: transparent !important;
+  color: black;
+  border: none;
+  --bs-btn-hover-color: black;
+}
+.btn1 {
+  border-radius: 20px !important;
+  background-color: #007ee5 !important;
+}
+
+.svg {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+.maincomponent {
+  margin: 0 6rem;
+}
+input {
+  height: 50px;
+  padding: 0 242.107px 0 27.512px;
+  align-items: center;
+  flex-shrink: 0;
+  color: #acacac;
+  border-radius: 25px;
+}
+label {
+  padding: 10px;
+}
+select {
+  height: 50px;
+  padding: 0 242.107px 0 27.512px;
+  align-items: center;
+  flex-shrink: 0;
+  color: #acacac !important;
+
+  border-radius: 25px;
+}
+button {
+  height: 50px;
+  padding: 0 242.107px 0 27.512px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+}
+.radiobtn {
+  padding: 0px 0px 0 0px !important;
+  border-radius: 50% !important;
+  position: relative;
+  top: 0.5em;
+}
+.contactme {
+  margin-bottom: 2rem;
+}
+.pricing-line {
+  width: 552px;
+  height: 10.423px;
+  position: relative;
+  left: 35px;
+  top: 70px;
+  background-color: #fff;
+}
+
+.marker {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  cursor: pointer;
+  background-color: white;
+}
+
+.marker:first-child {
+  left: 0;
+}
+
+.marker:last-child {
+  right: 0;
+}
+.slider {
+  width: 90%;
+  height: 7px;
+  background-color: white;
+}
+.sliderdiv {
+  position: relative;
+  top: 4.4rem;
+  left: 20px;
+}
+.slider .thumb {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 50%;
+  border: 2px solid #275efe;
+  top: -9px;
+}
+.track-0 {
+  background: #f3f5f7;
+}
+.track-1 {
+  background: #007ee5 !important;
+}
+.track-2 {
+  background: #9fa7ad;
+}
+.pricediv {
+  background-color: transparent;
+}
+.sliderdiv {
+  position: relative;
+}
+.form-check-input {
+  display: flex;
+  align-items: center;
+}
+* {
+  font-weight: 700;
+}
+
+.text-animation {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1rem;
+}
+.btnres {
+  width: 5rem;
+}
+/* .css-sghohy-MuiButtonBase-root-MuiButton-root  */
+.span {
+  color: #0c0c0c;
+  background-color: transparent;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 18px 0px;
+}
+.input-group {
+  background-color: white;
+  border-radius: 6px;
+  margin: 0 0 7px 0;
+}
+/* Larger screens (desktops) */
+@media (min-width: 768px) {
+  .maincomponent {
+    margin: 0 6rem;
+  }
+
+  .form {
+    display: flex;
+    position: relative;
+    bottom: 6rem;
+  }
+
+  .icon {
+    position: relative;
+    top: 8px;
+    right: 24px;
+  }
+
+  .iconn {
+    margin: 4px;
+  }
+}
+
+/* @media (max-width: 1294px) {
+  .form {
+    width: 500px;
+  }
+} */
+
+/* Medium screens (tablets) */
+@media (max-width: 767px) {
+  .maincomponent {
+    margin: 0 2rem;
+  }
+
+  .text-animation1 {
+    font-size: 1.9em;
+    right: 0rem;
+  }
+  .text-animation3 {
+    font-size: 1.7em;
+  }
+  .text-animation2 {
+    font-size: 1em !important;
+    bottom: 1rem;
+  }
+
+  .svgitem1,
+  .svgitem2 {
+    display: none; /* hide the SVG images on smaller screens */
+  }
+
+  .form {
+    flex-direction: column;
+    bottom: 1rem;
+  }
+
+  input,
+  select,
+  button {
+    width: 100%; /* make form elements full width */
+  }
+
+  .text-animation {
+    margin-bottom: 1rem;
+  }
+
+  .sliderdiv {
+    margin-top: 1rem;
+  }
+
+  .contactme {
+    width: auto;
+  }
+
+  .btn {
+    height: 50px;
+  }
+
+  /* .radiobtn {
+    margin-top: 0;
+  } */
+
+  .pricediv {
+    padding: 15px;
+  }
+  .text3 {
+    font-size: 1em;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 575px) {
+  .maincomponent {
+    margin: 0 1rem;
+  }
+
+  .text-animation1,
+  .text-animation3 {
+    font-size: 1.5em;
+  }
+  .text-animation2 {
+    font-size: 0.7em !important;
+  }
+
+  .form-check-input {
+    margin-top: 0;
+  }
+  .span {
+    font-size: 0.9rem;
+  }
+  .text3 {
+    font-size: 1em;
+  }
+  .div1 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 405px) {
+  .contactme {
+    padding: 0.7rem;
+  }
+}

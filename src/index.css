@@ -1,0 +1,48 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --white: #fff;
+  --black: #111;
+  --blue: #3a80e9;
+  --gray: #888;
+  --darkgrey: #1b1b1b;
+  --green: #61c96f;
+  --red: #f94141;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+  color: var(--black);
+  background: url("Rectangle.png"), lightgray 0% 0% / 100px 100px repeat;
+  font-family: "Inter", sans-serif;
+}
+::selection {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rc-slider {
+  top: 1rem;
+  margin: 3rem;
+}
+input {
+  border-radius: 6px !important;
+  background-color: white;
+}
+/* .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  color: #0c0c0c;
+  background-color: transparent;
+  transition: none;
+  box-shadow: none;
+} */
